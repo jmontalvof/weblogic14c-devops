@@ -38,3 +38,13 @@ Bienvenido a este repositorio que contiene la automatización básica para la in
 | WebLogic 14c disponible en:      |
 | http://<IP-SERVIDOR>:7001/console|
 +----------------------------------+
+
+weblogic14c-devops/
+├── .github/
+│   └── workflows/
+│       └── deploy_weblogic.yml     <-- Workflow de GitHub Actions
+├── clean_domain.sh                 <-- Limpia locks y ficheros temporales
+├── start_server.sh                 <-- Arranca WebLogic en background
+├── stop_server.sh                  <-- Detiene WebLogic
+├── README.md                        <-- Documentación completa del proyecto
+└── LICENSE                          <-- (Opcional) Licencia MIT o Libre
