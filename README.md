@@ -39,12 +39,17 @@ Bienvenido a este repositorio que contiene la automatización básica para la in
 | http://<IP-SERVIDOR>:7001/console|
 +----------------------------------+
 
-weblogic14c-devops/
+weblogic14c_helloworld_Pre_Pro/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/example/helloworld/HelloWorldServlet.java
+│       └── webapp/
+│           └── WEB-INF/
+│               └── web.xml
 ├── .github/
 │   └── workflows/
-│       └── deploy_weblogic.yml     <-- Workflow de GitHub Actions
-├── clean_domain.sh                 <-- Limpia locks y ficheros temporales
-├── start_server.sh                 <-- Arranca WebLogic en background
-├── stop_server.sh                  <-- Detiene WebLogic
-├── README.md                        <-- Documentación completa del proyecto
-└── LICENSE                          <-- (Opcional) Licencia MIT o Libre
+│       └── deploy.yml
+├── pom.xml
+├── README.md
+└── LICENSE
